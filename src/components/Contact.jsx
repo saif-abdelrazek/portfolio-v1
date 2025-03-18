@@ -1,5 +1,7 @@
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function contact() {
   return (
@@ -29,14 +31,36 @@ function contact() {
         >
           {CONTACT.phoneNo}
         </motion.p>
+
         <motion.p
-          whileInView={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
           className="my-4"
         >
           {CONTACT.email}
         </motion.p>
+        <motion.div
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 100 }}
+          transition={{ duration: 1 }}
+          className="flex justify-self-center gap-2  my-4"
+        >
+          <a
+            href="http://www.linkedin.com/in/saif-abdelrazek-6437b1280"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin size={30} />
+          </a>
+          <a
+            href="https://github.com/SaifAbdelrazek011"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={30} />
+          </a>
+        </motion.div>
       </div>
     </div>
   );

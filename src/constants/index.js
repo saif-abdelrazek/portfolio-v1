@@ -4,9 +4,9 @@ import project3 from "../assets/projects/filmoraproject.png";
 import project4 from "../assets/projects/speedtestproject.png";
 
 export const HERO_CONTENT = `
-I'm Saif Abdelrazek, a frontend developer, instructor, and problem-solver passionate about web development, STEM education, and tackling real-world challenges. From leading teams to innovating for a better world, I turn ideas into impactful digital experiences.`;
+I'm Saif Abdelrazek, a Highschooler, a frontend developer, instructor, and problem-solver passionate about web development, STEM education, and tackling real-world challenges. From leading teams to innovating for a better world, I turn ideas into impactful digital experiences.`;
 
-export const ABOUT_TEXT = `I’m a frontend developer, STEM educator, and active volunteer dedicated to making a difference through technology, education, and community service. As the Head of Software at Gharbiya Fablab, I lead a team in designing intuitive web interfaces while also contributing to hands-on engineering projects.
+export const ABOUT_TEXT = `I’m a frontend developer, STEM educator, and active volunteer dedicated to making a difference through technology, education, and community service. As the Software Instructor at Gharbiya Fablab, I lead a team in designing intuitive web interfaces while also contributing to hands-on engineering projects.
 
 Beyond coding, I’m a Physics, Math, and Geology instructor, helping students grasp complex scientific concepts. My passion for giving back led me to become a dedicated volunteer at Resala STEM, where I was recognized as the top contributor in Gharbiya Governorate and awarded a silver medal for being among the top 2% of volunteers in Season 2024. Through Resala STEM and the "Keep It Green" initiative, I’ve worked on environmental awareness campaigns, tree-planting efforts, and educating the public on pollution and sustainability.
 
