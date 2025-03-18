@@ -16,7 +16,7 @@ export const EXPERIENCES = [
     year: "2025 - Present",
     role: "Software Instructor & Web Developer",
     company: "Gharbiya FabLab Team",
-    description: `As the Head of Software at Gharbiya Fablab Team, I am solely responsible for developing and maintaining the website for both the team and the Fablab, ensuring a seamless and user-friendly experience. While I focus on web development, I also lead and guide a team working with fabrication technologies, including laser cutters, 3D printers, and vinyl cutters. My role involves providing technical direction, ensuring smooth machine operations, and helping the team integrate software with hands-on fabrication processes. Through my work, I aim to enhance digital and physical innovation within the Fablab ecosystem.`,
+    description: `As a Software Instructor and Web Developer in the Gharbiya Fablab Team, I develop and maintain the team’s website while providing software training for operating fabrication machines like laser cutters, 3D printers, and vinyl cutters. I assist team members with software-related challenges, ensuring efficient use of digital fabrication tools. Additionally, I create technical documentation to streamline learning and improve workflow, bridging the gap between software development and hardware prototyping in an innovative makerspace environment.`,
     technologies: [
       "Javascript",
       "HTML5",
