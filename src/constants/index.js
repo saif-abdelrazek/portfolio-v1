@@ -14,7 +14,7 @@ From competing in Intel ISEF and NASA Space Apps to working on real-world soluti
 export const EXPERIENCES = [
   {
     year: "2025 - Present",
-    role: "Head of Software and Web Developer",
+    role: "Software Instructor & Web Developer",
     company: "Gharbiya FabLab Team",
     description: `As the Head of Software at Gharbiya Fablab Team, I am solely responsible for developing and maintaining the website for both the team and the Fablab, ensuring a seamless and user-friendly experience. While I focus on web development, I also lead and guide a team working with fabrication technologies, including laser cutters, 3D printers, and vinyl cutters. My role involves providing technical direction, ensuring smooth machine operations, and helping the team integrate software with hands-on fabrication processes. Through my work, I aim to enhance digital and physical innovation within the Fablab ecosystem.`,
     technologies: [
