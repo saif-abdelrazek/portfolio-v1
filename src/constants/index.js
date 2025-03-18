@@ -3,74 +3,106 @@ import project2 from "../assets/projects/fablabproject.png";
 import project3 from "../assets/projects/filmoraproject.png";
 import project4 from "../assets/projects/speedtestproject.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `
+I'm Saif Abdelrazek, a frontend developer, instructor, and problem-solver passionate about web development, STEM education, and tackling real-world challenges. From leading teams to innovating for a better world, I turn ideas into impactful digital experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I’m a frontend developer, STEM educator, and active volunteer dedicated to making a difference through technology, education, and community service. As the Head of Software at Gharbiya Fablab, I lead a team in designing intuitive web interfaces while also contributing to hands-on engineering projects.
 
+Beyond coding, I’m a Physics, Math, and Geology instructor, helping students grasp complex scientific concepts. My passion for giving back led me to become a dedicated volunteer at Resala STEM, where I was recognized as the top contributor in Gharbiya Governorate and awarded a silver medal for being among the top 2% of volunteers in Season 2024. Through Resala STEM and the "Keep It Green" initiative, I’ve worked on environmental awareness campaigns, tree-planting efforts, and educating the public on pollution and sustainability.
+
+From competing in Intel ISEF and NASA Space Apps to working on real-world solutions for air filtration, plastic waste, and energy generation, my mission is to build, teach, and give back. I believe that technology and education go hand in hand in shaping a better future—and I’m always excited to take on new challenges that make an impact.`;
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2025 - Present",
     role: "Head of Software and Web Developer",
     company: "Gharbiya FabLab Team",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: `As the Head of Software at Gharbiya Fablab Team, I am solely responsible for developing and maintaining the website for both the team and the Fablab, ensuring a seamless and user-friendly experience. While I focus on web development, I also lead and guide a team working with fabrication technologies, including laser cutters, 3D printers, and vinyl cutters. My role involves providing technical direction, ensuring smooth machine operations, and helping the team integrate software with hands-on fabrication processes. Through my work, I aim to enhance digital and physical innovation within the Fablab ecosystem.`,
+    technologies: [
+      "Javascript",
+      "HTML5",
+      "CSS3",
+      "Coral Draw",
+      "Cut Studio",
+      "Ultmaker Cura",
+    ],
   },
   {
-    year: "2022 - 2023",
+    year: "2023 - Present",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    company: "HackClub",
+    description: `As a frontend developer at Hack Club, I contribute to building engaging and user-friendly web experiences for the Hack Club community. I collaborate with developers and designers to create interactive projects, optimize UI/UX, and bring ideas to life using JavaScript, React.js, and Tailwind CSS. Through Hack Club, I engage with a global network of makers and innovators, continuously learning and pushing the boundaries of open-source development and creative coding.`,
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Git",
+    ],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2024 - Present",
+    role: "Academic Instructor",
+    company: "Gharbiya Physics Club",
+    description: `As a Physics Instructor at STEM Gharbia Physics Club, I teach and mentor students in fundamental and advanced physics concepts, helping them develop a deeper understanding of the subject. I design engaging lessons, problem-solving sessions, and hands-on experiments to make learning interactive and practical. My role involves breaking down complex physics theories, guiding students in applying concepts to real-world problems, and preparing them for competitions and academic excellence.`,
+    technologies: [],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2024 - Present",
+    role: "Academic Instructor",
+    company: "Gharbiya Mathmatics Club",
+    description: `As a Mathematics Instructor at STEM Gharbia Mathematics Club, I help students develop a strong foundation in mathematical concepts, problem-solving techniques, and logical reasoning. I design and lead sessions that cover both fundamental and advanced topics, focusing on critical thinking, competition preparation, and real-world applications of mathematics. My goal is to make math engaging, intuitive, and applicable beyond textbooks.`,
+    technologies: [],
+  },
+  {
+    year: "2024 - Present",
+    role: "Academic Instructor",
+    company: "Ghabiya Geology Club",
+    description: `As a Geology Instructor at Gharbia Geology Club, I introduce students to the fascinating world of earth sciences, rocks, minerals, and geological processes. I design interactive lessons and discussions on topics like plate tectonics, natural disasters, and environmental geology, emphasizing their real-world significance. Through my teaching, I aim to inspire curiosity about earth’s history, sustainability, and the role of geology in solving global challenges.`,
+    technologies: [],
+  },
+  {
+    year: "2023 - Present",
+    role: "Volunteer",
+    company: "Resala STEM",
+    description: `As a Resala STEM volunteer, I contribute to educational, environmental, and social initiatives, including donation campaigns, STEM outreach, and community support. Recognized as the top contributor in Gharbiya (Season 2024) and awarded a silver medal (top 2% of volunteers), I actively work to empower others through knowledge and service.`,
+    technologies: [],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Forkify",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A modern web app for searching, viewing, and saving recipes. Features API-powered search, detailed recipe views, bookmarks, and custom recipe uploads with a responsive and interactive UI. Built with JavaScript, HTML5, CSS3. ",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Task Management App",
+    title: "Gharbiya FabLab Team",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A modern and interactive website showcasing the Gharbiya Fablab Team, their projects, and the machines they operate. Features a dynamic UI, responsive design, project highlights, and comprehensive documentation for easy reference and future expansion. Built with HTML, CSS, JavaScript, and Markdown for documentation. ",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Portfolio Website",
+    title: "Filmora App",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A web-based platform for browsing and discovering movies. Features trending movie suggestions, a modern UI, full responsiveness, and seamless browsing. Built with React.js, Appwrite, and Tailwind CSS. ",
+    technologies: ["HTML", "CSS", "React", "AppWrite"],
   },
   {
-    title: "Blogging Platform",
+    title: "SpeedTest",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A unique speed test game that evaluates typing ability based on adaptive difficulty rather than WPM. Features real-time word matching, multiple difficulty levels, theme switching, and anti-cheat mechanisms. Built with TypeScript, LocalStorage, and CSS Variables.",
+    technologies: ["HTML", "CSS", "TypeScript"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "RX7X+35, Tanta Qism 2, Second Tanta, Gharbia Governorate 6635003 ",
+  phoneNo: "+201507977286",
+  email: "saifamr1234567@gmail.com",
 };

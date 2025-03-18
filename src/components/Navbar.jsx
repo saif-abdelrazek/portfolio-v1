@@ -10,9 +10,20 @@ function Navbar() {
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaInstagram />
+        <a
+          href="http://www.linkedin.com/in/saif-abdelrazek-6437b1280"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/SaifAbdelrazek011"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub />
+        </a>
       </div>
     </nav>
   );
