@@ -104,5 +104,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Stadium, Second Tanta, Gharbia Governorate",
   phoneNo: "+201507977286",
-  email: "saifamr1234567@gmail.com",
+  email: "saif@saifabdelrazek.com",
 };

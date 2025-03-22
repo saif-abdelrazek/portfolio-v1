@@ -33,7 +33,7 @@ function contact() {
         </motion.p>
 
         <motion.a
-          href="mailto:saifamr1234567@gmail.com"
+          href="mailto:saif@saifabdelrazek.com"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
