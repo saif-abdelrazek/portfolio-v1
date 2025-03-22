@@ -102,7 +102,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "RX7X+35, Tanta Qism 2, Second Tanta, Gharbia Governorate 6635003 ",
+  address: "Stadium, Second Tanta, Gharbia Governorate",
   phoneNo: "+201507977286",
   email: "saifamr1234567@gmail.com",
 };

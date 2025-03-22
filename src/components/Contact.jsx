@@ -32,14 +32,15 @@ function contact() {
           {CONTACT.phoneNo}
         </motion.p>
 
-        <motion.p
+        <motion.a
+          href="mailto:saifamr1234567@gmail.com"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
           className="my-4"
         >
           {CONTACT.email}
-        </motion.p>
+        </motion.a>
         <motion.div
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 100 }}
