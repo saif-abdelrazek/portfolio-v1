@@ -77,6 +77,7 @@ export const PROJECTS = [
     description:
       "A modern web app for searching, viewing, and saving recipes. Features API-powered search, detailed recipe views, bookmarks, and custom recipe uploads with a responsive and interactive UI. Built with JavaScript, HTML5, CSS3. ",
     technologies: ["HTML", "CSS", "JavaScript"],
+    repo: "https://github.com/SaifAbdelrazek011/forkify",
   },
   {
     title: "Gharbiya FabLab Team",
@@ -84,6 +85,7 @@ export const PROJECTS = [
     description:
       "A modern and interactive website showcasing the Gharbiya Fablab Team, their projects, and the machines they operate. Features a dynamic UI, responsive design, project highlights, and comprehensive documentation for easy reference and future expansion. Built with HTML, CSS, JavaScript, and Markdown for documentation. ",
     technologies: ["HTML", "CSS", "JavaScript"],
+    repo: "https://github.com/SaifAbdelrazek011/fablab",
   },
   {
     title: "Filmora App",
@@ -91,6 +93,7 @@ export const PROJECTS = [
     description:
       "A web-based platform for browsing and discovering movies. Features trending movie suggestions, a modern UI, full responsiveness, and seamless browsing. Built with React.js, Appwrite, and Tailwind CSS. ",
     technologies: ["HTML", "CSS", "React", "AppWrite"],
+    repo: "https://github.com/SaifAbdelrazek011/filmora-app",
   },
   {
     title: "SpeedTest",
@@ -98,6 +101,7 @@ export const PROJECTS = [
     description:
       "A unique speed test game that evaluates typing ability based on adaptive difficulty rather than WPM. Features real-time word matching, multiple difficulty levels, theme switching, and anti-cheat mechanisms. Built with TypeScript, LocalStorage, and CSS Variables.",
     technologies: ["HTML", "CSS", "TypeScript"],
+    repo: "https://github.com/SaifAbdelrazek011/SpeedTest",
   },
 ];
 

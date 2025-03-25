@@ -14,7 +14,13 @@ function Projects() {
       </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <a
+            href={project.repo}
+            target="_blank"
+            rel="noopener noreferrer"
+            key={index}
+            className="mb-8 flex flex-wrap lg:justify-center"
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -44,7 +50,7 @@ function Projects() {
                 ></span>;
               })}
             </motion.div>
-          </div>
+          </a>
         ))}
       </div>
     </div>
