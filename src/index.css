@@ -5,3 +5,27 @@
 :root {
   font-family: "Inter", sans-serif;
 }
+
+.form-input {
+  border: 1px solid #3f3f46;
+  background-color: rgba(63, 63, 70, 0.2);
+  display: block;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+  outline: none;
+  border-color: #9ca3af;
+  width: 100%;
+  padding: 0.75rem;
+  color: rgba(209, 213, 219, 0.5);
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
