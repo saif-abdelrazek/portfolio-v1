@@ -13,8 +13,8 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
-  const linkClasses = (path) =>
-    `transition-colors duration-300 px-3 py-3 lg:text-[15px] ${
+  const linkClasses = (path: string) =>
+    `transition-colors duration-300 px-3 py-3 lg:text-[18px] ${
       location.pathname === path
         ? "text-purple-900 font-bold border-b-2 border-purple-900"
         : "hover:text-purple-900"

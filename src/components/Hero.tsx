@@ -1,8 +1,8 @@
-import { HERO_CONTENT } from "../constants";
+import { HERO_CONTENT } from "../constants/index";
 import profilePic from "../assets/Saif_Abdelrazek.jpg";
 import { motion } from "framer-motion";
 
-const container = (delay) => ({
+const container = (delay: number) => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
     x: 0,

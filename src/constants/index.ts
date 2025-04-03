@@ -3,15 +3,40 @@ import project2 from "../assets/projects/fablabproject.png";
 import project3 from "../assets/projects/filmoraproject.png";
 import project4 from "../assets/projects/speedtestproject.png";
 
-export const HERO_CONTENT = `
+type BaseType = {
+  description: string;
+  technologies: string[];
+};
+
+type ExperiencesType = BaseType & {
+  year: string;
+  role: string;
+  company: string;
+};
+
+type ProjectsType = BaseType & {
+  title: string;
+  image: string;
+  repo: string;
+  demo: string;
+};
+
+type ContactType = {
+  address: string;
+  phoneNo: string;
+  email: string;
+};
+
+export const HERO_CONTENT: string = `
 I'm Saif Abdelrazek, a Highschooler, a frontend developer, instructor, and problem-solver passionate about web development, STEM education, and tackling real-world challenges. From leading teams to innovating for a better world, I turn ideas into impactful digital experiences.`;
 
-export const ABOUT_TEXT = `I’m a frontend developer, STEM educator, and active volunteer dedicated to making a difference through technology, education, and community service. As the Software Instructor at Gharbiya Fablab, I lead a team in designing intuitive web interfaces while also contributing to hands-on engineering projects.
+export const ABOUT_TEXT: string = `I’m a frontend developer, STEM educator, and active volunteer dedicated to making a difference through technology, education, and community service. As the Software Instructor at Gharbiya Fablab, I lead a team in designing intuitive web interfaces while also contributing to hands-on engineering projects.
 
 Beyond coding, I’m a Physics, Math, and Geology instructor, helping students grasp complex scientific concepts. My passion for giving back led me to become a dedicated volunteer at Resala STEM, where I was recognized as the top contributor in Gharbiya Governorate and awarded a silver medal for being among the top 2% of volunteers in Season 2024. Through Resala STEM and the "Keep It Green" initiative, I’ve worked on environmental awareness campaigns, tree-planting efforts, and educating the public on pollution and sustainability.
 
 From competing in Intel ISEF and NASA Space Apps to working on real-world solutions for air filtration, plastic waste, and energy generation, my mission is to build, teach, and give back. I believe that technology and education go hand in hand in shaping a better future—and I’m always excited to take on new challenges that make an impact.`;
-export const EXPERIENCES = [
+
+export const EXPERIENCES: ExperiencesType[] = [
   {
     year: "2025 - Present",
     role: "Software Instructor & Web Developer",
@@ -70,7 +95,7 @@ export const EXPERIENCES = [
   },
 ];
 
-export const PROJECTS = [
+export const PROJECTS: ProjectsType[] = [
   {
     title: "Forkify",
     image: project1,
@@ -109,7 +134,7 @@ export const PROJECTS = [
   },
 ];
 
-export const CONTACT = {
+export const CONTACT: ContactType = {
   address: "Stadium, Second Tanta, Gharbia Governorate",
   phoneNo: "+201507977286",
   email: "saif@saifabdelrazek.com",

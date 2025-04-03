@@ -1,4 +1,4 @@
-import { CONTACT } from "../constants";
+import { CONTACT } from "../constants/index";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { FaLinkedin } from "react-icons/fa";
@@ -10,10 +10,10 @@ function contact() {
   // eslint-disable-next-line react-hooks/rules-of-hooks, no-unused-vars
   const [result, setResult] = useState("");
 
-  const onSubmit = async (event) => {
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setResult("Sending....");
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.target as HTMLFormElement);
 
     formData.append("access_key", FormsAccessKey);
 
@@ -26,7 +26,7 @@ function contact() {
 
     if (data.success) {
       setResult("Form Submitted Successfully");
-      event.target.reset();
+      (event.target as HTMLFormElement)?.reset();
     } else {
       console.log("Error", data);
       setResult(data.message);
@@ -48,32 +48,32 @@ function contact() {
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
         >
-          <p
+          <motion.p
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className="my-4"
           >
             {CONTACT.address}
-          </p>
-          <p
+          </motion.p>
+          <motion.p
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
             className="my-4"
           >
             {CONTACT.phoneNo}
-          </p>
+          </motion.p>
 
-          <p
+          <motion.p
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
             className="my-4"
           >
             {CONTACT.email}
-          </p>
-          <div
+          </motion.p>
+          <motion.div
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 100 }}
             transition={{ duration: 1 }}
@@ -93,7 +93,7 @@ function contact() {
             >
               <FaGithub size={30} />
             </a>
-          </div>
+          </motion.div>
         </motion.div>
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
@@ -135,7 +135,7 @@ function contact() {
                       required
                     />
                   </div>
-                  <label htmlFor="subject" type="text" className="sr-only">
+                  <label htmlFor="subject" className="sr-only">
                     Subject
                   </label>
                   <input
@@ -150,11 +150,12 @@ function contact() {
                     Message{" "}
                   </label>
                   <textarea
+                    style={{ resize: "none" }}
                     name="comments"
                     id="comments"
                     className="form-input"
                     placeholder="Enter your message"
-                    rows="3"
+                    rows={3}
                     required
                   ></textarea>
                   <div className="text-right">
