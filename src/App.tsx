@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { React, Suspense, lazy } from "react";
+import { Suspense, lazy } from "react";
 import { ClipLoader } from "react-spinners";
 import Navbar from "./components/Navbar";
 const Hero = lazy(() => import("./components/Hero"));
