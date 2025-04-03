@@ -8,7 +8,7 @@ const FormsAccessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
 
 function contact() {
   // eslint-disable-next-line react-hooks/rules-of-hooks, no-unused-vars
-  const [result, setResult] = useState("");
+  const [result, setResult] = useState<string>("");
 
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();

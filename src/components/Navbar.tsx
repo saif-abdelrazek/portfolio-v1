@@ -6,7 +6,7 @@ import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const location = useLocation();
 
   const toggleIsOpen = function () {
@@ -21,9 +21,9 @@ function Navbar() {
     }`;
   return (
     <nav className="flex  items-center justify-between pb-6 ">
-      <div className="flex flex-shrink-0  items-center">
+      <Link to="/" className="flex flex-shrink-0  items-center">
         <img className="mx-2 w-10" src={logo} alt="logo" />
-      </div>
+      </Link>
       <div
         id="nav-menu"
         className={`absolute flex flex-col lg:translate-0 z-50 justify-between py-6 text-xl  items-center top-15 right-0 w-64 h-fit  bg-neutral-900 lg:w-fit transition-all transform duration-300 rounded-l-2xl lg:bg-transparent lg:static  lg:flex-row lg:p-0 lg:gap-5 lg:h-fit  ${
