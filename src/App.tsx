@@ -8,6 +8,7 @@ const Experience = lazy(() => import("./components/Experience"));
 const Projects = lazy(() => import("./components/Projects"));
 const Contact = lazy(() => import("./components/Contact"));
 
+const Undefined = lazy(() => import("./components/404"));
 function App() {
   return (
     <div className="relative overflow-x-hidden overflow-y-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
@@ -23,15 +24,7 @@ function App() {
             <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
-            <Route
-              path="*"
-              element={
-                <>
-                  <h1>404 - Page Not Found</h1>
-                  <h2>Get one from the Navbar</h2>
-                </>
-              }
-            />
+            <Route path="*" element={<Undefined />} />
           </Routes>
         </Suspense>
       </div>
