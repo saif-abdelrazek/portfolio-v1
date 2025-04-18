@@ -5,3 +5,8 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
+
+/// <reference lib="webworker" />
+
+declare const self: ServiceWorkerGlobalScope;
+export {};
