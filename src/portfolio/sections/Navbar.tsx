@@ -21,7 +21,7 @@ function Navbar() {
     }`;
   return (
     <nav className="flex  items-center justify-between pb-6 ">
-      <Link to="/" className="flex flex-shrink-0  items-center">
+      <Link to="/portfolio" className="flex flex-shrink-0  items-center">
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </Link>
       <div
@@ -30,19 +30,28 @@ function Navbar() {
           isOpen ? "translate-0" : "translate-x-100"
         }`}
       >
-        <Link className={linkClasses("/")} to="/">
+        <Link className={linkClasses("/portfolio")} to="/portfolio">
           Home
         </Link>
-        <Link className={linkClasses("/about")} to="/about">
+        <Link className={linkClasses("/portfolio/about")} to="/portfolio/about">
           About
         </Link>
-        <Link className={linkClasses("/experience")} to="/experience">
+        <Link
+          className={linkClasses("/portfolio/experience")}
+          to="/portfolio/experience"
+        >
           Experience
         </Link>
-        <Link className={linkClasses("/projects")} to="/projects">
+        <Link
+          className={linkClasses("/portfolio/projects")}
+          to="/portfolio/projects"
+        >
           Projects
         </Link>
-        <Link className={linkClasses("/contact")} to="/contact">
+        <Link
+          className={linkClasses("/portfolio/contact")}
+          to="/portfolio/contact"
+        >
           Contact
         </Link>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { PROJECTS } from "../constants/index";
+import { PROJECTS } from "../../constants/index";
 import { motion } from "framer-motion";
 function Projects() {
   return (

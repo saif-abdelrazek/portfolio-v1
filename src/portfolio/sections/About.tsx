@@ -1,5 +1,5 @@
 import aboutImg from "../assets/Saif_Abdelrazek_About.jpg";
-import { ABOUT_TEXT } from "../constants/index";
+import { ABOUT_TEXT } from "../../constants/index";
 import { motion } from "framer-motion";
 import Technologies from "./Technologies";
 

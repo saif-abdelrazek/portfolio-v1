@@ -1,4 +1,4 @@
-import { HERO_CONTENT } from "../constants/index";
+import { HERO_CONTENT } from "../../constants/index";
 import profilePic from "../assets/Saif_Abdelrazek.jpg";
 import { motion } from "framer-motion";
 

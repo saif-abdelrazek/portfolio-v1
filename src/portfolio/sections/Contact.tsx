@@ -1,4 +1,4 @@
-import { CONTACT } from "../constants/index";
+import { CONTACT } from "../../constants/index";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { FaLinkedin } from "react-icons/fa";
