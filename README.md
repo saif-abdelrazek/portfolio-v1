@@ -19,7 +19,7 @@ This is a personal portfolio website built with **React**, **Tailwind CSS**, **F
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/SaifAbdelrazek011/Personal-portfolio.git
+   git clone https://github.com/saif-abdelrazek/Personal-portfolio.git
    cd Personal-Portfolio
    ```
 2. **Install dependencies**:

@@ -19,6 +19,7 @@ type ProjectsType = BaseType & {
   image: string;
   repo: string;
   demo: string;
+  privateRepo?: boolean;
 };
 
 type ContactType = {
@@ -38,7 +39,7 @@ From competing in Intel ISEF and NASA Space Apps to working on real-world soluti
 
 export const EXPERIENCES: ExperiencesType[] = [
   {
-    year: "2025 - Present",
+    year: "2025 - 2025",
     role: "Software Instructor & Web Developer",
     company: "Gharbiya FabLab Team",
     description: `As a Software Instructor and Web Developer in the Gharbiya Fablab Team, I develop and maintain the team’s website while providing software training for operating fabrication machines like laser cutters, 3D printers, and vinyl cutters. I assist team members with software-related challenges, ensuring efficient use of digital fabrication tools. Additionally, I create technical documentation to streamline learning and improve workflow, bridging the gap between software development and hardware prototyping in an innovative makerspace environment.`,
@@ -66,28 +67,28 @@ export const EXPERIENCES: ExperiencesType[] = [
     ],
   },
   {
-    year: "2024 - Present",
+    year: "2024 - 2025",
     role: "Academic Instructor",
     company: "Gharbiya Physics Club",
-    description: `As a Physics Instructor at STEM Gharbia Physics Club, I teach and mentor students in fundamental and advanced physics concepts, helping them develop a deeper understanding of the subject. I design engaging lessons, problem-solving sessions, and hands-on experiments to make learning interactive and practical. My role involves breaking down complex physics theories, guiding students in applying concepts to real-world problems, and preparing them for competitions and academic excellence.`,
+    description: `As a Physics Instructor at STEM Gharbiya Physics Club, I teach and mentor students in fundamental and advanced physics concepts, helping them develop a deeper understanding of the subject. I design engaging lessons, problem-solving sessions, and hands-on experiments to make learning interactive and practical. My role involves breaking down complex physics theories, guiding students in applying concepts to real-world problems, and preparing them for competitions and academic excellence.`,
     technologies: [],
   },
   {
-    year: "2024 - Present",
+    year: "2024 - 2025",
     role: "Academic Instructor",
     company: "Gharbiya Mathmatics Club",
-    description: `As a Mathematics Instructor at STEM Gharbia Mathematics Club, I help students develop a strong foundation in mathematical concepts, problem-solving techniques, and logical reasoning. I design and lead sessions that cover both fundamental and advanced topics, focusing on critical thinking, competition preparation, and real-world applications of mathematics. My goal is to make math engaging, intuitive, and applicable beyond textbooks.`,
+    description: `As a Mathematics Instructor at STEM Gharbiya Mathematics Club, I help students develop a strong foundation in mathematical concepts, problem-solving techniques, and logical reasoning. I design and lead sessions that cover both fundamental and advanced topics, focusing on critical thinking, competition preparation, and real-world applications of mathematics. My goal is to make math engaging, intuitive, and applicable beyond textbooks.`,
     technologies: [],
   },
   {
-    year: "2024 - Present",
+    year: "2024 - 2025",
     role: "Academic Instructor",
     company: "Ghabiya Geology Club",
-    description: `As a Geology Instructor at Gharbia Geology Club, I introduce students to the fascinating world of earth sciences, rocks, minerals, and geological processes. I design interactive lessons and discussions on topics like plate tectonics, natural disasters, and environmental geology, emphasizing their real-world significance. Through my teaching, I aim to inspire curiosity about earth’s history, sustainability, and the role of geology in solving global challenges.`,
+    description: `As a Geology Instructor at Gharbiya Geology Club, I introduce students to the fascinating world of earth sciences, rocks, minerals, and geological processes. I design interactive lessons and discussions on topics like plate tectonics, natural disasters, and environmental geology, emphasizing their real-world significance. Through my teaching, I aim to inspire curiosity about earth’s history, sustainability, and the role of geology in solving global challenges.`,
     technologies: [],
   },
   {
-    year: "2023 - Present",
+    year: "2023 - 2025",
     role: "Volunteer",
     company: "Resala STEM",
     description: `As a Resala STEM volunteer, I contribute to educational, environmental, and social initiatives, including donation campaigns, STEM outreach, and community support. Recognized as the top contributor in Gharbiya (Season 2024) and awarded a silver medal (top 2% of volunteers), I actively work to empower others through knowledge and service.`,
@@ -102,8 +103,9 @@ export const PROJECTS: ProjectsType[] = [
     description:
       "A modern web app for searching, viewing, and saving recipes. Features API-powered search, detailed recipe views, bookmarks, and custom recipe uploads with a responsive and interactive UI. Built with JavaScript, HTML5, CSS3. ",
     technologies: ["HTML", "CSS", "JavaScript"],
-    repo: "https://github.com/SaifAbdelrazek011/forkify",
-    demo: "https://forkify.saifabdelrazek.com",
+    repo: "https://github.com/saif-abdelrazek",
+    privateRepo: true,
+    demo: "",
   },
   {
     title: "Gharbiya FabLab Team",
@@ -111,8 +113,9 @@ export const PROJECTS: ProjectsType[] = [
     description:
       "A modern and interactive website showcasing the Gharbiya Fablab Team, their projects, and the machines they operate. Features a dynamic UI, responsive design, project highlights, and comprehensive documentation for easy reference and future expansion. Built with HTML, CSS, JavaScript, and Markdown for documentation. ",
     technologies: ["HTML", "CSS", "JavaScript"],
-    repo: "https://github.com/SaifAbdelrazek011/fablab",
-    demo: "https://fablabgharbia.netlify.app",
+    repo: "https://github.com/saif-abdelrazek",
+    privateRepo: true,
+    demo: "",
   },
   {
     title: "Filmora App",
@@ -120,8 +123,9 @@ export const PROJECTS: ProjectsType[] = [
     description:
       "A web-based platform for browsing and discovering movies. Features trending movie suggestions, a modern UI, full responsiveness, and seamless browsing. Built with React.js, Appwrite, and Tailwind CSS. ",
     technologies: ["HTML", "CSS", "React", "AppWrite"],
-    repo: "https://github.com/SaifAbdelrazek011/filmora-app",
-    demo: "https://filmora-app.saifabdelrazek.com",
+    repo: "https://github.com/saif-abdelrazek",
+    privateRepo: true,
+    demo: "",
   },
   {
     title: "SpeedTest",
@@ -129,13 +133,14 @@ export const PROJECTS: ProjectsType[] = [
     description:
       "A unique speed test game that evaluates typing ability based on adaptive difficulty rather than WPM. Features real-time word matching, multiple difficulty levels, theme switching, and anti-cheat mechanisms. Built with TypeScript, LocalStorage, and CSS Variables.",
     technologies: ["HTML", "CSS", "TypeScript"],
-    repo: "https://github.com/SaifAbdelrazek011/SpeedTest",
-    demo: "https://saifabdelrazek011.github.io/SpeedTest/",
+    repo: "https://github.com/saif-abdelrazek",
+    privateRepo: true,
+    demo: "https://saif-abdelrazek.github.io/SpeedTest/",
   },
 ];
 
 export const CONTACT: ContactType = {
-  address: "Stadium, Second Tanta, Gharbia Governorate",
-  phoneNo: "+201507977286",
+  address: "Stadium, Second Tanta, Gharbiya Governorate",
+  phoneNo: "",
   email: "saif@saifabdelrazek.com",
 };

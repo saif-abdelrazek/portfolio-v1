@@ -87,7 +87,7 @@ function contact() {
               <FaLinkedin size={30} />
             </a>
             <a
-              href="https://github.com/SaifAbdelrazek011"
+              href="https://github.com/saif-abdelrazek"
               target="_blank"
               rel="noopener noreferrer"
             >

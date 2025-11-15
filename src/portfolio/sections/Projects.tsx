@@ -1,5 +1,5 @@
 import React from "react";
-import { PROJECTS } from "../../constants/index";
+import { PROJECTS, CONTACT } from "../../constants/index";
 import { motion } from "framer-motion";
 function Projects() {
   return (
@@ -7,10 +7,8 @@ function Projects() {
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.a
-              href={project.demo}
-              target="_blank"
-              rel="noopener noreferrer"
+            {/* Show image without link - all demos are archived */}
+            <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
@@ -21,9 +19,9 @@ function Projects() {
                 width={150}
                 height={150}
                 alt={project.title}
-                className="mb-6 rounded"
+                className="mb-6 rounded opacity-90"
               />
-            </motion.a>
+            </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
@@ -32,14 +30,15 @@ function Projects() {
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
-              <a
-                href={project.repo}
-                className="mb-4 block hover:text-sky-700 transition-colors duration-300"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Check Repo
-              </a>
+              {/* All repositories are now private/archived */}
+              <div className="mb-4 block text-neutral-400">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-neutral-800/50 rounded-md text-sm border border-neutral-700">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                  </svg>
+                  Repository Archived
+                </span>
+              </div>
               {project.technologies.map((tech, index) => {
                 return (
                   <span

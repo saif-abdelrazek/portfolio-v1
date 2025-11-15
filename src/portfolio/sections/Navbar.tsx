@@ -21,7 +21,7 @@ function Navbar() {
     }`;
   return (
     <nav className="flex  items-center justify-between pb-6 ">
-      <Link to="/portfolio" className="flex flex-shrink-0  items-center">
+      <Link to="/" className="flex flex-shrink-0  items-center">
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </Link>
       <div
@@ -30,27 +30,27 @@ function Navbar() {
           isOpen ? "translate-0" : "translate-x-100"
         }`}
       >
-        <Link className={linkClasses("/portfolio")} to="/portfolio">
+        <Link className={linkClasses("/")} to="/">
           Home
         </Link>
-        <Link className={linkClasses("/portfolio/about")} to="/portfolio/about">
+        <Link className={linkClasses("/about")} to="/about">
           About
         </Link>
         <Link
-          className={linkClasses("/portfolio/experience")}
-          to="/portfolio/experience"
+          className={linkClasses("/experience")}
+          to="/experience"
         >
           Experience
         </Link>
         <Link
-          className={linkClasses("/portfolio/projects")}
-          to="/portfolio/projects"
+          className={linkClasses("/projects")}
+          to="/projects"
         >
           Projects
         </Link>
         <Link
-          className={linkClasses("/portfolio/contact")}
-          to="/portfolio/contact"
+          className={linkClasses("/contact")}
+          to="/contact"
         >
           Contact
         </Link>
@@ -64,7 +64,7 @@ function Navbar() {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/SaifAbdelrazek011"
+          href="https://github.com/saif-abdelrazek"
           target="_blank"
           rel="noopener noreferrer"
         >
